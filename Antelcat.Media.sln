@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antelcat.Media.Abstractions", "src\Antelcat.Media.Abstractions\Antelcat.Media.Abstractions.csproj", "{DA8B9A9A-9EC9-4B3A-97E3-B7603FAAAA27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antelcat.Media", "src\Antelcat.Media\Antelcat.Media.csproj", "{35DB1F92-598E-454E-A13C-F72A0D235CEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{CAEA763D-7695-441B-B01F-E7AF92272170}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antelcat.Media.Windows", "src\Antelcat.Media.Windows\Antelcat.Media.Windows.csproj", "{77F816DD-EEF2-4991-ADE0-7216AE9B68BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antelcat.Media.Tests", "tests\Antelcat.Media.Tests\Antelcat.Media.Tests.csproj", "{8597192F-323C-4EA1-A222-C1C45265B3C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antelcat.Media.Windows.Tests", "tests\Antelcat.Media.Windows.Tests\Antelcat.Media.Windows.Tests.csproj", "{468B5323-0CD7-4A8A-A9BF-F3D292806B90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA8B9A9A-9EC9-4B3A-97E3-B7603FAAAA27}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{DA8B9A9A-9EC9-4B3A-97E3-B7603FAAAA27}.Debug|Any CPU.Build.0 = Debug|x64
+		{DA8B9A9A-9EC9-4B3A-97E3-B7603FAAAA27}.Release|Any CPU.ActiveCfg = Release|x64
+		{DA8B9A9A-9EC9-4B3A-97E3-B7603FAAAA27}.Release|Any CPU.Build.0 = Release|x64
+		{35DB1F92-598E-454E-A13C-F72A0D235CEF}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{35DB1F92-598E-454E-A13C-F72A0D235CEF}.Debug|Any CPU.Build.0 = Debug|x64
+		{35DB1F92-598E-454E-A13C-F72A0D235CEF}.Release|Any CPU.ActiveCfg = Release|x64
+		{35DB1F92-598E-454E-A13C-F72A0D235CEF}.Release|Any CPU.Build.0 = Release|x64
+		{77F816DD-EEF2-4991-ADE0-7216AE9B68BF}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{77F816DD-EEF2-4991-ADE0-7216AE9B68BF}.Debug|Any CPU.Build.0 = Debug|x64
+		{77F816DD-EEF2-4991-ADE0-7216AE9B68BF}.Release|Any CPU.ActiveCfg = Release|x64
+		{77F816DD-EEF2-4991-ADE0-7216AE9B68BF}.Release|Any CPU.Build.0 = Release|x64
+		{8597192F-323C-4EA1-A222-C1C45265B3C5}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{8597192F-323C-4EA1-A222-C1C45265B3C5}.Debug|Any CPU.Build.0 = Debug|x64
+		{8597192F-323C-4EA1-A222-C1C45265B3C5}.Release|Any CPU.ActiveCfg = Release|x64
+		{8597192F-323C-4EA1-A222-C1C45265B3C5}.Release|Any CPU.Build.0 = Release|x64
+		{468B5323-0CD7-4A8A-A9BF-F3D292806B90}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{468B5323-0CD7-4A8A-A9BF-F3D292806B90}.Debug|Any CPU.Build.0 = Debug|x64
+		{468B5323-0CD7-4A8A-A9BF-F3D292806B90}.Release|Any CPU.ActiveCfg = Release|x64
+		{468B5323-0CD7-4A8A-A9BF-F3D292806B90}.Release|Any CPU.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8597192F-323C-4EA1-A222-C1C45265B3C5} = {CAEA763D-7695-441B-B01F-E7AF92272170}
+		{468B5323-0CD7-4A8A-A9BF-F3D292806B90} = {CAEA763D-7695-441B-B01F-E7AF92272170}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <Configurations>Debug;Release</Configurations>
+        <Platforms>x64</Platforms>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="EasyPathology.Media.Windows.Tests" Key="00240000048000009400000006020000002400005253413100040000010001009d6996e943e9fdb2c314767a3cc3b92ba3d096050b2739e3d7242ec278de9f39cf89bda9a828e178dcd2021b569867308c3059905cf5b637d9e3d2f5a60f5b2ba8a58368a5329fefbdb33b11574c4460fa6dac29f753c972a53739346e1ed12ec92eb5df36f6c7d2cb0de0f86d85dd23e7016a25bc4af4cb03021c117a6c2fce"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Lennox.NvEncSharp" Version="2.0.0"/>
+        <PackageReference Include="NAudio" Version="2.2.1"/>
+        <PackageReference Include="Sdcb.FFmpeg.runtime.windows-x64" Version="6.1.1"/>
+        <PackageReference Include="SharpDX" Version="4.2.0"/>
+        <PackageReference Include="SharpDX.Direct2D1" Version="4.2.0"/>
+        <PackageReference Include="SharpDX.Direct3D11" Version="4.2.0"/>
+        <PackageReference Include="SharpDX.DirectSound" Version="4.2.0"/>
+        <PackageReference Include="SharpDX.MediaFoundation" Version="4.2.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Update="runtimes\win-x64\native\cudart64_102.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Antelcat.Media\Antelcat.Media.csproj" />
+    </ItemGroup>
+</Project>

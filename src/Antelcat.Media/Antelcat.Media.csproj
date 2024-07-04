@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <Platforms>x64</Platforms>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <LangVersion>preview</LangVersion>
+        <Configurations>Release;Debug</Configurations>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="OpenCvSharp4" Version="4.9.0.20240103"/>
+        <PackageReference Include="Sdcb.FFmpeg" Version="6.1.0.1"/>
+        <PackageReference Include="SoundTouch.Net" Version="2.3.2"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Antelcat.Media.Abstractions\Antelcat.Media.Abstractions.csproj"/>
+    </ItemGroup>
+</Project>
