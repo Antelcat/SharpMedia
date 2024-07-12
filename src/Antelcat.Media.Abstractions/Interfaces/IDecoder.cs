@@ -1,4 +1,4 @@
-﻿namespace Antelcat.Media.Abstractions; 
+﻿namespace Antelcat.Media.Abstractions.Interfaces; 
 
 public enum DecodeResult
 {

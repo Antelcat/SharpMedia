@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 using Antelcat.Media.Abstractions;
+using Antelcat.Media.Abstractions.Interfaces;
 using Antelcat.Media.Extensions;
 
 namespace Antelcat.Media.Decoders;

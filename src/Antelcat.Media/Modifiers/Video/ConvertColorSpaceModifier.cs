@@ -1,6 +1,7 @@
 ﻿using System.Threading;
 using Antelcat.Media.Abstractions;
 using Antelcat.Media.Abstractions.Enums;
+using Antelcat.Media.Abstractions.Interfaces;
 using Antelcat.Media.Internal;
 using OpenCvSharp;
 

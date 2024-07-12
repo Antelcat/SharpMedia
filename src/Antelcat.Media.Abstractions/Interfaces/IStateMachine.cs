@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace EasyPathology.Abstractions.Interfaces;
+﻿namespace Antelcat.Media.Abstractions.Interfaces;
 
 public interface IStateMachine<TState> where TState : struct, Enum
 {

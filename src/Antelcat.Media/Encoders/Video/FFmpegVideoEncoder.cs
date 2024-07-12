@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using Antelcat.Media.Abstractions;
+using Antelcat.Media.Abstractions.Enums;
+using Antelcat.Media.Abstractions.Interfaces;
 using Antelcat.Media.Internal;
 using Antelcat.Media.Extensions;
 

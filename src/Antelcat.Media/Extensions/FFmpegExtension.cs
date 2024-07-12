@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
-using EasyPathology.Abstractions.DataTypes;
 using Antelcat.Media.Abstractions;
 using Antelcat.Media.Abstractions.Enums;
 using Sdcb.FFmpeg.Codecs;

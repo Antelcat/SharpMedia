@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Antelcat.Media.Abstractions;
+﻿namespace Antelcat.Media.Abstractions.Interfaces;
 
 public interface IInputDeviceManager
 {

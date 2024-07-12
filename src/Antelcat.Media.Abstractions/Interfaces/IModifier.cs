@@ -1,4 +1,4 @@
-﻿namespace Antelcat.Media.Abstractions;
+﻿namespace Antelcat.Media.Abstractions.Interfaces;
 
 public interface IModifier<in TDevice, TFormat, TFrame> where TDevice : InputDevice
 {

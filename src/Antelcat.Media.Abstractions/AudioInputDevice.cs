@@ -1,4 +1,6 @@
-﻿namespace Antelcat.Media.Abstractions;
+﻿using Antelcat.Media.Abstractions.Interfaces;
+
+namespace Antelcat.Media.Abstractions;
 
 /// <summary>
 /// 通过麦克风录音

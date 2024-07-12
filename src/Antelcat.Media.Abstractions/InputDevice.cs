@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Runtime.ExceptionServices;
 using Antelcat.Media.Abstractions.Extensions;
-using EasyPathology.Abstractions.Interfaces;
+using Antelcat.Media.Abstractions.Interfaces;
 using Promise = System.Threading.Tasks.TaskCompletionSource;
 
 namespace Antelcat.Media.Abstractions;

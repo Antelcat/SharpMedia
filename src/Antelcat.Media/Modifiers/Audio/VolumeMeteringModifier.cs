@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Threading;
 using Antelcat.Media.Abstractions;
+using Antelcat.Media.Abstractions.Interfaces;
 
 namespace Antelcat.Media.Modifiers;
 

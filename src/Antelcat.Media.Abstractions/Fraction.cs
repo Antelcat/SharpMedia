@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace EasyPathology.Abstractions.DataTypes;
+﻿namespace Antelcat.Media.Abstractions;
 
 /// <summary>
 /// 代表一个正分数，由分子和分母组成

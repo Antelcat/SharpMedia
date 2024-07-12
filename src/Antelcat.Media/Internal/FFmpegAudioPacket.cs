@@ -1,4 +1,5 @@
 ﻿using Antelcat.Media.Abstractions;
+using Antelcat.Media.Abstractions.Enums;
 using Antelcat.Media.Extensions;
 using Sdcb.FFmpeg.Codecs;
 

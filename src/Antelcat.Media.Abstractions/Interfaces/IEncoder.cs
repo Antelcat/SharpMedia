@@ -1,4 +1,4 @@
-﻿namespace Antelcat.Media.Abstractions;
+﻿namespace Antelcat.Media.Abstractions.Interfaces;
 
 public interface IEncoder<TEncoder, TDevice, TFormat, TFrame, TPacket>
     where TEncoder : IEncoder<TEncoder, TDevice, TFormat, TFrame, TPacket>

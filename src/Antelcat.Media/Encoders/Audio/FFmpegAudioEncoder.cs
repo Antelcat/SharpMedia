@@ -1,11 +1,13 @@
 ﻿using System.Collections.Generic;
 using Antelcat.Media.Abstractions;
+using Antelcat.Media.Abstractions.Enums;
+using Antelcat.Media.Abstractions.Interfaces;
 using Antelcat.Media.Internal;
 using Antelcat.Media.Extensions;
-using IEncoder = Antelcat.Media.Abstractions.IEncoder<
-    Antelcat.Media.Abstractions.IAudioEncoder, 
+using IEncoder = Antelcat.Media.Abstractions.Interfaces.IEncoder<
+    Antelcat.Media.Abstractions.Interfaces.IAudioEncoder, 
     Antelcat.Media.Abstractions.AudioInputDevice, 
-    Antelcat.Media.Abstractions.EncodedAudioFormat, 
+    Antelcat.Media.Abstractions.Enums.EncodedAudioFormat, 
     Antelcat.Media.Abstractions.RawAudioFrame, 
     Antelcat.Media.Abstractions.RawAudioPacket>;
 

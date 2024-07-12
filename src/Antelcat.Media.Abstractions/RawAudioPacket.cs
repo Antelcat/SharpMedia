@@ -1,4 +1,6 @@
-﻿namespace Antelcat.Media.Abstractions;
+﻿using Antelcat.Media.Abstractions.Enums;
+
+namespace Antelcat.Media.Abstractions;
 
 /// <summary>
 /// TODO 尚未实现，我还不知道需要哪些属性，参考VideoEncoderPacket

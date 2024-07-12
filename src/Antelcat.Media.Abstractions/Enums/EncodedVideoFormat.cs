@@ -1,4 +1,4 @@
-﻿namespace Antelcat.Media.Abstractions;
+﻿namespace Antelcat.Media.Abstractions.Enums;
 
 // ReSharper disable InconsistentNaming
 public enum EncodedVideoFormat

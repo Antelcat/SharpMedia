@@ -1,6 +1,4 @@
-﻿using System.IO;
-
-namespace Antelcat.Media.Abstractions; 
+﻿namespace Antelcat.Media.Abstractions.Interfaces; 
 
 public interface IMuxer {
     void Open(string outputUrl);

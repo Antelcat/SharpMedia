@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using Antelcat.Media.Abstractions;
 using Antelcat.Media.Abstractions.Extensions;
+using Antelcat.Media.Abstractions.Interfaces;
 using Antelcat.Media.Encoders.Audio;
 using Antelcat.Media.Encoders.Video;
 using Antelcat.Media.Internal;

@@ -1,4 +1,4 @@
-﻿namespace Antelcat.Media.Abstractions;
+﻿namespace Antelcat.Media.Abstractions.Interfaces;
 
 /// <summary>
 /// 解码器上下文

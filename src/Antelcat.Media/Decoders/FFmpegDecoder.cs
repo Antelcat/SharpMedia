@@ -6,6 +6,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using Antelcat.Media.Abstractions;
 using Antelcat.Media.Abstractions.Enums;
+using Antelcat.Media.Abstractions.Interfaces;
 using Antelcat.Media.Extensions;
 using Sdcb.FFmpeg.Codecs;
 using Sdcb.FFmpeg.Common;

@@ -1,6 +1,6 @@
 ﻿using Antelcat.Media.Abstractions.Enums;
-using EasyPathology.Abstractions.DataTypes;
 using Antelcat.Media.Abstractions.Extensions;
+using Antelcat.Media.Abstractions.Interfaces;
 
 namespace Antelcat.Media.Abstractions;
 

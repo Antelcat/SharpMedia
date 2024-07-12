@@ -1,5 +1,6 @@
 ﻿using System.Threading;
 using Antelcat.Media.Abstractions;
+using Antelcat.Media.Abstractions.Interfaces;
 using SoundTouch;
 
 namespace Antelcat.Media.Modifiers;

@@ -1,7 +1,7 @@
 ﻿using System.Threading;
-using EasyPathology.Abstractions.DataTypes;
 using Antelcat.Media.Abstractions;
 using Antelcat.Media.Abstractions.Enums;
+using Antelcat.Media.Abstractions.Interfaces;
 
 namespace Antelcat.Media;
 

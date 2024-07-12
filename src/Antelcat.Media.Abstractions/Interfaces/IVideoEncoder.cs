@@ -1,4 +1,6 @@
-﻿namespace Antelcat.Media.Abstractions;
+﻿using Antelcat.Media.Abstractions.Enums;
+
+namespace Antelcat.Media.Abstractions.Interfaces;
 
 /// <summary>
 /// 输入的是<see cref="RawVideoFrame"/>，输出的是<see cref="RawVideoPacket"/>

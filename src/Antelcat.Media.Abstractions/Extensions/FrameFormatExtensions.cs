@@ -1,5 +1,4 @@
 ﻿using Antelcat.Media.Abstractions.Enums;
-using EasyPathology.Abstractions.DataTypes;
 
 namespace Antelcat.Media.Abstractions.Extensions;
 

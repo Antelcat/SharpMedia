@@ -1,4 +1,6 @@
-﻿namespace Antelcat.Media.Abstractions;
+﻿using Antelcat.Media.Abstractions.Enums;
+
+namespace Antelcat.Media.Abstractions;
 
 public class RawVideoPacket(IntPtr data, int length, EncodedVideoFormat format) :
     RawPacket<EncodedVideoFormat>(data, length, format)
